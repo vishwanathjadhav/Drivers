@@ -1,1 +1,0 @@
-cmd_/home/vishwa/Workspace/driver_develop/n1000e.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/vishwa/Workspace/driver_develop/n1000e.ko /home/vishwa/Workspace/driver_develop/n1000e.o /home/vishwa/Workspace/driver_develop/n1000e.mod.o ;  true
