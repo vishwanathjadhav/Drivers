@@ -21,6 +21,7 @@ Dump of assembler code for function my_oops_init:
    0x0000000000000070 <+36>:	movl   $0x0,0x0     <========================= (NULL) pointer copy.
    0x000000000000007b <+47>:	retq
 End of assembler dump.
+
 #(gdb) list * 0x0000000000000070
 {
 	<CODE WILL BE VISIBLE HERE>
