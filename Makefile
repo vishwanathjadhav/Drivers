@@ -1,3 +1,4 @@
+#obj-m += n1000e.o
 obj-m += oops.o
 
 all:
